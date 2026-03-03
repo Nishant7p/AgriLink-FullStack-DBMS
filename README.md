@@ -16,6 +16,40 @@ This project demonstrates a scalable **Full-Stack architecture** with a focus on
 
 ---
 
+## 📸 Application Gallery
+
+### Authentication & Access Control
+<p align="center">
+  <img src="./assets/login.png" width="48%" alt="Login Portal"/>
+  <img src="./assets/Signup_page.png" width="48%" alt="Registration System"/>
+</p>
+
+### Buyer Experience & Marketplace
+<p align="center">
+  <img src="./assets/Featured.png" width="48%" alt="Featured Products UI"/>
+  <img src="./assets/Filter_market.png" width="48%" alt="Dynamic Search & Filters"/>
+</p>
+<p align="center">
+  <img src="./assets/reviews.png" width="98%" alt="Product Review System"/>
+</p>
+
+### Farmer Dashboard & Order Management
+<p align="center">
+  <img src="./assets/farmer_dashboard.png" width="48%" alt="Farmer Analytics Dashboard"/>
+  <img src="./assets/Inventory.png" width="48%" alt="CRUD Inventory Management"/>
+</p>
+<p align="center">
+  <img src="./assets/orderHistory.png" width="98%" alt="Order Fulfillment Tracking"/>
+</p>
+
+### Advanced Analytics & Reporting
+<p align="center">
+  <img src="./assets/Query_showcase.png" width="48%" alt="Custom Analytics Queries"/>
+  <img src="./assets/Performance_report.png" width="48%" alt="Revenue & Profit Tracking Charts"/>
+</p>
+
+---
+
 ## 🛠️ Technologies & Tools
 
 ### Frontend
