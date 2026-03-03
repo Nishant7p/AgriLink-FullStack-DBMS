@@ -1,66 +1,83 @@
-# AgriLink Harvest Hub
+# AgriLink Harvest Hub 🌾
 
-AgriLink Harvest Hub is a full-stack web application designed to connect farmers and buyers directly, eliminating middlemen and streamlining the agricultural supply chain. The platform enables farmers to list products, manage inventory, and analyze sales, while buyers can browse, order, and track agricultural products in real time.
+**A Full-Stack D2C Agricultural Marketplace & Supply Chain Solution**
 
-## Project Description
+AgriLink Harvest Hub is a professional-grade web application designed to bridge the gap between farmers and consumers. By eliminating intermediaries, the platform optimizes the agricultural supply chain, ensuring better profit margins for farmers and fresher produce for buyers.
 
-This project was built as a demonstration of a modern, scalable, and user-friendly agricultural marketplace. It features:
-- Direct farmer-to-buyer connections
-- Product listing and browsing
-- Order placement and management
-- Inventory tracking for farmers
-- Analytics dashboard for insights
-- Responsive design for desktop and mobile
+---
 
-## Technologies & Tools Used
+## 🚀 Technical Overview
+
+This project demonstrates a scalable **Full-Stack architecture** with a focus on type-safety, efficient state management, and relational data integrity.
+
+* **Direct D2C Bridge:** Facilitates peer-to-peer transactions reducing supply chain overhead.
+* **Data Integrity:** Implements a structured relational schema to handle complex multi-actor workflows (Farmers, Buyers, Logistics).
+* **Modern Development:** Built with a focus on performance using Vite and robust server-state management via TanStack Query.
+
+---
+
+## 🛠️ Technologies & Tools
 
 ### Frontend
-- **React**: Component-based UI library for building interactive interfaces
-- **Vite**: Fast build tool and development server
-- **TypeScript**: Type-safe JavaScript for scalable code
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
-- **React Router**: Client-side routing
-- **@tanstack/react-query**: Data fetching and caching
-- **Shadcn/UI**: Modern UI components
+* **React 18 & Vite**: Component-based UI with a high-performance build pipeline.
+* **TypeScript**: End-to-end type safety for scalable and maintainable code.
+* **Tailwind CSS & Shadcn/UI**: Utility-first styling and accessible, modern UI components.
+* **TanStack Query**: Efficient data fetching, caching, and server-state synchronization.
+* **React Router**: Declarative client-side routing.
 
-### Backend (for demo/integration)
-- **Node.js & Express**: REST API server (if using custom backend)
-- **Supabase**: (For some versions) Backend-as-a-Service for authentication, database, and real-time APIs
-- **Sequelize & MySQL**: (For some versions) ORM and relational database
-- **JWT**: Authentication tokens
-- **CORS, dotenv**: Security and environment management
+### Backend & Database
+* **Node.js & Express**: Scalable REST API architecture.
+* **Supabase**: Backend-as-a-Service for real-time APIs and secure authentication.
+* **Sequelize & MySQL**: Relational Data Modeling and ORM management for complex queries.
+* **JWT**: Secure session-based authentication and Role-Based Access Control (RBAC).
 
-### Other Tools
-- **ESLint & Prettier**: Code linting and formatting
-- **Postman**: API testing
-- **Git**: Version control
+---
 
-## Getting Started
+## ✨ Key Features
+
+* **Farmer Dashboard:** Comprehensive suite for inventory management (CRUD), sales analytics, and order fulfillment.
+* **Buyer Portal:** Seamless product discovery with real-time filtering, ordering, and tracking.
+* **Secure Authentication:** Multi-role login system for Farmers and Buyers.
+* **Responsive Design:** Optimized experience across mobile, tablet, and desktop devices.
+* **Real-time Data:** Instant UI updates leveraging Supabase real-time listeners.
+
+---
+
+## ⚙️ Getting Started
 
 ### Prerequisites
-- Node.js (v16+ recommended)
-- npm or yarn
-- (Optional) MySQL or Supabase account for backend
+* **Node.js**: v16+ recommended
+* **Package Manager**: npm or yarn
+* **Database**: Access to a MySQL instance or Supabase project
 
-### Installation
-1. **Clone the repository:**
+### Installation & Setup
+
+1. **Clone the Repository:**
    ```bash
-   git clone <repo-url>
-   cd agrilink-harvest-hub-18-main/agrilink-harvest-hub-18-main
+   git clone [https://github.com/Nishant7p/AgriLink-FullStack-DBMS.git](https://github.com/Nishant7p/AgriLink-FullStack-DBMS.git)
+   cd AgriLink-FullStack-DBMS
    ```
-2. **Install frontend dependencies:**
+
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
-3. **Start the frontend:**
+
+3. **Environment Configuration:**
+   Create a `.env` file in the root directory and add your specific database and API credentials.
+
+4. **Launch Development Server:**
    ```bash
    npm run dev
    ```
-   The app will be available at [http://localhost:5173](http://localhost:5173) or the port shown in your terminal.
+   *The application will be accessible at http://localhost:5173*
 
-## Features
-- **Farmer Dashboard:** Manage products, inventory, and view analytics
-- **Buyer Dashboard:** Browse products, place orders, and track purchases
-- **Authentication:** Secure login and registration
-- **Responsive UI:** Works on all devices
-- **Real-time Data:** Instant updates with Supabase or REST API
+---
+
+## 🤝 Credits & Contribution
+
+This project was developed as a comprehensive demonstration of DBMS integration and Full-Stack development.
+* **Developer:** [Nishant](https://github.com/Nishant7p)
+
+---
+*Developed as part of the CSAM curriculum at IIIT Delhi.*
